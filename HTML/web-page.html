@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="mybutton">Click It!</button>
+    <p id="paragraph">This is where I write everything.</p>
+    <script>
+        let button = document.getElementById("mybutton");
+        let paragraph = document.getElementById("paragraph");
+        function changeText(){
+            paragraph.text = "Hello World";
+        }
+        document.getElementById("mybutton").addEventListener("click", displayDate);
+    </script>
+</body>
+</html>

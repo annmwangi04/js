@@ -1,0 +1,39 @@
+body{
+    width: 50px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 360px;
+}
+
+h1{
+    color: brown;
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+}
+li{
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+#addToDo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid brown;
+    vertical-align: middle;
+    font-size: 30px;
+}

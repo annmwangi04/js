@@ -1,0 +1,16 @@
+.headingsCommon{
+    border-radius: 5px;
+}
+.textClass{
+    text-decoration: line-through;
+}
+#changeBtn{
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 7px;
+}
+input{
+    
+    font-size: 2.5cm;
+}
